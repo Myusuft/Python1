@@ -1,0 +1,5 @@
+Nomor = int(input())
+Ratusan = Nomor // 100
+Puluhan = (Nomor - Ratusan * 100) // 10
+Satuan = (Nomor - Ratusan*100 - Puluhan*10) 
+print(Ratusan * Puluhan * Satuan)
