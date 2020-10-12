@@ -1,0 +1,23 @@
+a = input().split()
+data1 = list(map(int, a))
+
+if data1[0] > data1[1]:
+    if data1[0] < data1[2]:
+        print(data1[0])
+if data1[0] < data1[1]:
+    if data1[0] > data1[2]:
+        print(data1[0])
+
+if data1[1] > data1[0]:
+    if data1[1] < data1[2]:
+        print(data1[1])
+if data1[1] < data1[0]:
+    if data1[1] > data1[2]:
+        print(data1[1])
+
+if data1[2] > data1[1]:
+    if data1[2] < data1[0]:
+        print(data1[2])
+if data1[2] < data1[1]:
+    if data1[2] > data1[0]:
+        print(data1[2])
