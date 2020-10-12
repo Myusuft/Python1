@@ -1,0 +1,17 @@
+x = input().split()
+data1 = list(map(int, x))
+if data1[0] % data1[2] == 0:
+    if data1[1] % data1[2] == 0:
+        print(str(data1[0]), "habis dibagi", str(data1[2]), "dan", str(data1[1]), "habis dibagi", str(data1[2]))
+
+if data1[0] % data1[2] == 0:
+    if data1[1] % data1[2] != 0:
+        print(str(data1[0]), "habis dibagi", str(data1[2]), "tetapi", str(data1[1]), "tidak habis dibagi", str(data1[2]))
+
+if data1[0] % data1[2] != 0:
+    if data1[1] % data1[2] == 0:
+        print(str(data1[0]), "tidak habis dibagi", str(data1[2]), "tetapi", str(data1[1]), "habis dibagi", str(data1[2]))
+
+if data1[0] % data1[2] != 0:
+    if data1[1] % data1[2] != 0:
+        print(str(data1[0]), "tidak habis dibagi", str(data1[2]), "dan", str(data1[1]), "tidak habis dibagi", str(data1[2]))
