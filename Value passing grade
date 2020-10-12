@@ -1,0 +1,9 @@
+x = input().split()
+xbar = list(map(int, x))
+xbar1 = (xbar[0] + xbar[1] + xbar[2]) / 3
+
+if xbar1 >= 50:
+    print("Siswa tersebut dinyatakan lulus")
+if xbar1 <= 40:
+    print(" Siswa tersebut dinyatakan tidak lulus")
+
